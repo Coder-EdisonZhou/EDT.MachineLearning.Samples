@@ -16,8 +16,8 @@ namespace EDC.ML.Samples.TTS.Services
         // Header Type : audio/mpeg
         private const string AUDIO_MPEG_TYPE = "audio/mpeg";
         // AppID, AppKey 从讯飞开放云平台获取
-        public string AppID { get; set; } = "5c3806f5";
-        public string ApiKey { get; set; } = "a99fff9fc537d883a18a37bf56dc8f28";
+        public string AppID { get; set; } = "Your AppID";
+        public string ApiKey { get; set; } = "Your ApiKey";
         // 要进行合成的文字
         public string TextToSpeech { get; set; } = "这是一段测试文字";
         // 讯飞TTS服务API地址
